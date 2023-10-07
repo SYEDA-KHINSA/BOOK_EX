@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin-top:0;
+    padding:0;
+    /* display: flex; */
+     /* justify-content:center; */
+    /* align-items:center;  */
+    /* height:100vh; */
+
+}
+ul{
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+  }
+  
+  ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform:uppercase;
+    transition:0.5s;
+  }
+  
+  ul:hover li a{
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
+  }
+  
+  ul li a:hover{
+    transform:scale(2);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#ff497c;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  
+  ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }
+.navbar{
+    margin: 20px;
+    padding:  20px;
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    /* border-style: double; */
+    border-radius: 5px;
+    box-shadow: 12px 12px 12px 12px rgb(218, 189, 218);
+    background: linear-gradient(to right, rgb(158, 204, 225), rgb(249, 250, 212));
+
+    
+}
+nav ul li a{
+    justify-items: center;
+    text-align:justify ;
+    color: black;
+    margin-left:13px;
+    text-decoration: none;
+}
+
+
+button{
+    border-radius: 25px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgb(135, 222, 249);
+    float: right;
+    margin-left: 15px;
+    padding :5px;
+    /* margin: 10px; */
+    width: 180px;
+    margin-top: -30px;
+
+    
+    /* margin-top: 4px; */
+    
+}
+
+button:hover{
+    background: linear-gradient(to right, rgb(182, 232, 255), rgb(248, 190, 218));
+}
+/* 
+nav ul li a  button{
+    float: right;
+} */
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+h1:hover{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-shadow: 2px 2px 2px 2px ;
+  color: #ff497c;
+  transition: 2.5s;
+  filter: drop-shadow(2);
+}
+.paragraph{
+  padding: 10px;
+  margin: 10px;
+
+}
+.summary{
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+
+
+}
+
+.summary:hover{
+  transition: 2.0s;
+  color: rgb(76, 138, 18);
+}
+
+/* .kitty:hover{
+  float: right;
+  transition: 0.0s;
+  
+} */

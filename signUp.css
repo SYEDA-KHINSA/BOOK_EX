@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    
+}
+.container{
+    width: 850px;
+    height: 500px;
+    box-shadow: 5px  5px 5px 5px plum;
+    border-color: black;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.Heading{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-shadow: 1px 1px 5px 5px purple;
+    background: linear-gradient(to right, rgb(209, 242, 255)  , rgb(255, 210, 255));
+}
